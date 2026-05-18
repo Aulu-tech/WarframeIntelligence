@@ -8,7 +8,9 @@ The blacklist itself is sourced from a single, public Discord channel inside the
 
 ## Why this exists
 
-Bad actors hop between trade and clan servers constantly. Most communities only learn about a scammer or a known account-sharer after the damage is done, by which point that person has already moved on to the next server. A shared list, maintained in the open, lets us all get the warning at the same time
+Bad actors usually don't stop at one warframe clan, they crave MORE
+We don't want them to hop between our communities, so we have a shared
+collaboration we call Warframe Intelligence
 
 This project is intentionally:
 
@@ -16,6 +18,7 @@ This project is intentionally:
 - **Unbranded.** The bot just shows up as "Warframe Intelligence". It is not tied to any single server, person, or trade community
 - **Read-only on your server.** It does not need ban, kick, or message-management permissions
 - **Backed by a public channel, not a private database.** The data is "whatever is posted in the source channel", nothing more
+(public within warframe intelligence)
 
 ## How it works
 
