@@ -1,0 +1,14 @@
+# local secrets and data
+token.txt
+data.json
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# editors
+.vscode/
+.idea/
+*.swp
