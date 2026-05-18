@@ -54,8 +54,6 @@ The bot reads its token from a plain text file called `token.txt` in the project
 Set-Content -Path token.txt -Value "YOUR_BOT_TOKEN_HERE"
 ```
 
-The SQLite database lives at `data/warframe_intelligence.db` and is created automatically on first run
-
 The source guild and channel are hardcoded in `config.py` on purpose, since they are part of the project identity and not something individual hosts should be reconfiguring
 
 ### Run
