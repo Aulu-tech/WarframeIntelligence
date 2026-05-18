@@ -24,10 +24,10 @@ This project is intentionally:
 ## How it works
 
 1. The bot is in the central Warframe Intelligence guild and watches a single channel for new posts
-2. Any Discord user ID that appears in a message in that channel is added to the local SQLite blacklist
+2. Any Discord user ID that appears in a message in that channel is added to the local JSON blacklist
 3. On startup the bot also fetches the most recent messages from that channel and reconciles them against the local copy, so nothing is missed if the bot was offline when a new entry was posted
 4. In every other server the bot is in, it listens for `on_member_join`, and periodically scans the existing member list, so users who were already in the server when they got blacklisted are still caught
-5. When a match is found, the bot sends a notification according to that server's configuration (a channel ping, a DM to a chosen moderator, or both), and remembers that it already notified so it does not spam
+5. When a match is found, the bot sends a notification according to that server's configuration and remembers that it already notified so it does not spam
 
 ## Setup
 
