@@ -2,9 +2,10 @@
 
 A community-run blacklist bot for Warframe Discord servers
 
-Warframe Intelligence sits in any number of partner servers and quietly watches for users who have been flagged as bad actors by the central Warframe Intelligence community. When a flagged user joins, or is already a member, the bot pings a moderator channel (or a DM) so your staff can act on it. That is all it does. No moderation actions, no kicks, no bans, no data leaving your server. Just a heads-up
+Warframe Intelligence sits in any number of partner servers and quietly watches for users who have been flagged as bad actors by the central Warframe Intelligence community. When a flagged user joins, or is already a member, the bot writes in a channel you configure... done
 
-The blacklist itself is sourced from a single, public Discord channel inside the Warframe Intelligence community, which makes the source of truth fully auditable. If you want to know why someone is on the list, you can read the original message yourself
+You can yourself choose if you act, you can inspect proof
+The bot does no automated moderation (nor should you give it permissions to, zero trust is the best way)
 
 ## Why this exists
 
