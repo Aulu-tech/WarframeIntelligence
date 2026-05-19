@@ -33,6 +33,7 @@ async def ingest(message):
     ids = [int(m) for m in ID_RE.findall(message.content)]
     if not ids:
         return
+    await message.add_reaction("✅")
     reason = ID_RE.sub("", message.content).strip(" \t\n\r-:,.") or None
     for uid in dict.fromkeys(ids):  # dedup while preserving order
         if not storage.add_blacklisted(uid, reason, message.id):
